@@ -1,9 +1,9 @@
-const contractAddress = "0x83e82f96527fac7B0157e2DE8bFEcAAF26b6F390"; //Replace with your own contract address
+const contractAddress = "0xcbfc961A96484B651c2ad544F9172aA6507d9387"; //Replace with your own contract address
 const chain = 'ethereum'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the Cope Bears NFT Project!!";
+const welcome_h1 = "AUUUUGHHHZUUUUUKKKKKIIIIIIIGOBBBBBLINNNSSSSSS";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p =  "10,000 left facing bears trying to cope."
+const welcome_p =  "AUUUUGHHHZUUUUUKKKKKIIIIIIIGOBBBBBLINNNSSSSSS"
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 // const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";

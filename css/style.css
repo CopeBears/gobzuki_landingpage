@@ -9,10 +9,10 @@
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
   --bg-color: #306d38;
-  --font-color: #000000;
+  --font-color: #173d24;
   --btn-bg-color: #ffffff;
-  --accent-color: #aa0f95;
-  --header-shadow: #000 0px 0px 5px;
+  --accent-color: #814b0c;
+  --header-shadow: rgb(138, 84, 14) 0px 0px 5px;
 }
 
 * {
@@ -91,7 +91,7 @@ header .container {
   padding: 1.5rem 3rem;
 }
 
-/* COUNTDOWN SECTION */
+COUNTDOWN SECTION
 
 section {
   flex: 1 1 auto;
