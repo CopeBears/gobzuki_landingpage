@@ -3,9 +3,12 @@
   "version": "1.1.0",
   "description": "This repo is a work-in-progress and pairs with the Mint 10k NFT project.",
   "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+   "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "eject": "react-scripts eject",
+        "test": "react-scripts test"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codeSTACKr/nft-landing-page.git"
