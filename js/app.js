@@ -127,7 +127,7 @@ async function checkChain() {
 
 async function loadInfo() {
   window.info = await contract.methods.currentTokenId().call();
-  window.mintPrice = 0.00;//await contract.methods.getPrice(1).call();
+  window.mintPrice = 0.0025;//await contract.methods.getPrice(1).call();
   // console.log('currentTokenId: ' + window.info);
 
   let totalSupplyOnchain = await contract.methods.totalSupply().call();
@@ -215,7 +215,7 @@ async function loadInfo() {
   // pricePerMint.innerText = `${price} ${priceType}`;
   // maxPerMint.innerText = `${20}`;
   // totalSupply.innerText = `${info.deploymentConfig.maxSupply}`;
-  mintInput.setAttribute("max", 2);
+  mintInput.setAttribute("max", 20);
 
   // MINT INPUT
   const mintIncrement = document.getElementById("mintIncrement");
@@ -258,7 +258,7 @@ function setTotalPrice() {
   const mintInputValue = parseInt(mintInput.value);
   const totalPrice = document.getElementById("totalPrice");
   const mintButton = document.getElementById("mintButton");
-  if(mintInputValue < 1 || mintInputValue > 2) {
+  if(mintInputValue < 1 || mintInputValue > 20) {
     totalPrice.innerText = 'INVALID QUANTITY';
     mintButton.disabled = true;
     mintInput.disabled = true;
@@ -285,7 +285,7 @@ async function mint() {
   mintButton.innerHTML = spinner;
 
   const amount = parseInt(document.getElementById("mintInput").value);
-  const value = 0.00 * amount;
+  const value = 0.0025 * amount;
   const publicMintActive = true; //await contract.methods.mintingActive().call();
   const presaleMintActive = true; //await contract.methods.presaleActive().call();
 
