@@ -1,7 +1,7 @@
 const contractAddress = "0x8bF6527fE03e50f963981F05e9F913b2A1dc90Bf"; //Replace with your own contract address
 const chain = 'ethereum'; // rinkeby or polygon
 
-const welcome_h1 = "SAUDIBIRDS";
+const welcome_h1 = "SAUDIBIRDS!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
 const welcome_p =  "MAX BIDDING"
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
