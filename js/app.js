@@ -140,7 +140,7 @@ async function loadInfo() {
   const actionButton = document.getElementById("actionButton");
   const mintContainer = document.getElementById("mintContainer");
   const mintedCounter = document.getElementById("mintedCounter");
-  mintedCounter.innerText = totalSupplyOnchain+'/7000 minted';
+  mintedCounter.innerText = totalSupplyOnchain+'/4200 minted';
   const mintButton = document.getElementById("mintButton");
   const spinner = document.getElementById("spinner");
   const price = window.mintPrice; //web3.utils.fromWei(window.mintPrice, 'ether');
