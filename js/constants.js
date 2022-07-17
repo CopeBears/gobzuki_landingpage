@@ -1,4 +1,4 @@
-const contractAddress = "0xC07F748B65456B37d5fb3cebcfbD4BcD42589565"; //Replace with your own contract address
+const contractAddress = "0xCc589aca361a41e7541433d54D8DF06531991d24"; //Replace with your own contract address
 const chain = 'ethereum'; // rinkeby or polygon
 
 const welcome_h1 = "Milady BEETLES!";
